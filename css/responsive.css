@@ -1,0 +1,26 @@
+@media(max-width:992px){
+    .title {
+        font-size: 28px;
+    }
+    .login-main .title::after {
+        width: 46px;
+        height: 4px;
+        bottom: -17px;
+    }
+    .login-main .title {
+        margin-bottom: 36px;
+    }
+}
+@media(max-width:768px){
+
+    .wizard-step .card-body {
+        padding-left: 70px;
+    }
+    .wizard-step .active-step {
+        font-size: 70px;
+    }
+    .wizard-question {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

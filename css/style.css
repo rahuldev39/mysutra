@@ -1,0 +1,324 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #58595B;
+}
+body,html{
+    height: 100%;
+}
+a{
+    color: #66C0F9;
+}
+a:hover {
+    color: #3692cc;
+    text-decoration: underline;
+}
+.bg-success{
+    background-color: #55D6B3 !important;
+}
+
+/* Text */
+.font-semibold{
+    font-weight: 600 !important;
+}
+.text-primary{
+    color: #66C0F9 !important;
+}
+.text-muted {
+    color: #B5B5B5!important;
+}
+
+.border-right {
+    border-right: 1px solid #ececec!important;
+}
+.border-primary {
+    border-color: #66C0F9!important;
+}
+.border-2{
+    border-width: 2px;
+}
+
+
+.rounded-lg{
+    border-radius: 15px !important;
+}
+
+/* Buttons */
+.btn:focus{
+    box-shadow: none;
+}
+.btn-primary {
+    background-color: #66C0F9;
+    border-color: #66C0F9;
+}
+.btn-primary:not(:disabled):not(.disabled).active, 
+.btn-primary:not(:disabled):not(.disabled):active, 
+.show>.btn-primary.dropdown-toggle {
+    background-color: #52b2ee;
+    border-color: #53b2ee;
+}
+.btn-primary:hover{
+    background-color: #52b2ee;
+    border-color: #53b2ee;
+}
+.btn-lg{
+    height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    border-width: 2px;
+    min-width: 180px;
+}
+.btn-outline-success {
+    color: #55D6B3;
+    border-color: #55D6B3;
+}
+.btn-outline-success:not(:disabled):not(.disabled):active,
+.btn-outline-success:hover
+{
+    background-color: #55d6b3 !important;
+    border-color: #55d6b3 !important;
+    color: white !important;
+}
+
+
+
+/* Forms */
+.form-control-lg {
+    height: 50px;
+    font-size: 17px;
+}
+
+.form-control::placeholder{
+    color: rgb(0 0 0 / 36%)!important;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+input:-internal-autofill-selected{
+    background-color: red;
+}
+select.form-control{
+    background-image: url(../images/Down.svg);
+    background-position: center right 15px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-right: 40px;
+    appearance: none;
+}
+.form-control.calender{
+    background-image: url(../images/calendar.svg);
+    background-position: center right 15px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-right: 40px;
+}
+.form-control-placeholder {
+    position: absolute;
+    top: 50%;
+    transition: all 200ms;
+    opacity: 0.5;
+    transform: translateY(-50%);
+    left: 9px;
+    pointer-events: none;
+    margin-bottom: 0px;
+    background-color: white;
+    padding: 0px 8px;
+}
+
+.form-control:focus-within + .form-control-placeholder, .form-control:valid + .form-control-placeholder {
+    font-size: 75%;
+    transform: translateY(-100%);
+    opacity: 1;
+    padding: 0px 8px;
+    top: 9px;
+    color: #66c0f9;
+}
+.title {
+    font-size: 40px;
+}
+
+.form-control:focus-within{
+    border-color: #66c0f9;
+    box-shadow: 0px 0px 0px 1px #66c0f9 !important;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.custom-checkbox label, .custom-radio label {
+    padding-left: 38px;
+    cursor: pointer;
+}
+.custom-checkbox label input[type="checkbox"] + span::before,
+.custom-radio label input[type="radio"] + span::before
+{
+    content: "";
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.custom-checkbox label input[type="checkbox"] + span::after,
+.custom-radio label input[type="radio"] + span::after
+{
+    content: "";
+    height: 16px;
+    width: 16px;
+    display: block;
+    background-color: #e3e3e3;
+    border-radius: 50%;
+    position: absolute;
+    left: 7px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.custom-checkbox label input[type="checkbox"]:checked + span::after,
+.custom-radio label input[type="radio"]:checked + span::after
+{
+    background: #66C0F9;
+}
+.custom-radio label input[type="radio"] + span::before{
+    border-radius: 50%;
+}
+
+
+
+
+
+/* Login */
+.logo-mobile img {
+    width: 135px;
+}
+.logo-mobile{
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 40px;
+}
+.login-main .title {
+    margin-bottom: 68px;
+}
+.login-main .title::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 6px;
+    background-color: #66c0f9;
+    border-radius: 20px;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.login-right p{
+    color: #42A6D5;
+    font-size: 18px;
+    max-width: 350px;
+    margin: 0 auto;
+    margin: 30px 50px;
+}
+.login-bg-left{
+    background-image: url(../images/left-graphics.svg);
+    background-repeat: no-repeat;
+    background-position:left bottom;
+    background-size: contain;
+    box-shadow: 0px 0px 12px #2468861f;
+    z-index: 1;
+}
+.login-main{
+    background-image: url(../images/right-graphics.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.login-main main{
+    max-width: 454px;
+}
+.signup-page{
+    background-image: url(../images/wizard-right-bg.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+/* Footer */
+.footer-nav{
+    font-size: 14px;
+}
+.footer-nav li{
+    position: relative;
+    padding-right: 25px;
+}
+.footer-nav li::after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    background: #66C0F9;
+    border-radius: 50%;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.footer-nav li:last-child{
+    padding-right: 0px;
+}
+.footer-nav li:last-child::after{
+    display: none;
+}
+.copyright-text{
+    font-size: 14px;
+}
+
+/* Wizard */
+.progress{
+    height: 10px;
+    border-radius: 20px;
+}
+.progress-bar {
+    border-radius: 20px;
+}
+
+
+#msform fieldset:not(:first-of-type) {
+    display: none
+}
+
+
+
+
+.wizard-container{
+    max-width: 850px;
+}
+.wizard-step .active-step {
+    font-size: 107px;
+    color: hsl(203deg 92% 69% / 23%);
+    left: 10px;
+    line-height: 93px;
+    top: 10px;
+}
+
+.wizard-step .steps {
+    right: 18px;
+    top: 12px;
+}
+.wizard-step .card-body {
+    padding-left: 100px;
+    padding-top: 30px;
+}
+.action-button{
+    min-width: 130px;
+}
+.wizard-question {
+    font-size: 20px;
+    margin-bottom: 15px;
+    line-height: 30px;
+}
