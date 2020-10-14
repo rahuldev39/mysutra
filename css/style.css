@@ -312,7 +312,11 @@ select:-webkit-autofill:focus {
 }
 .wizard-step .card-body {
     padding-left: 100px;
-    padding-top: 30px;
+    padding-top: 42px;
+    padding-bottom: 34px;
+}
+.wizard-step .card-footer {
+    padding: 25px 32px;
 }
 .action-button{
     min-width: 130px;
@@ -321,4 +325,7 @@ select:-webkit-autofill:focus {
     font-size: 20px;
     margin-bottom: 15px;
     line-height: 30px;
+}
+.network-img{
+    width: 74%;
 }

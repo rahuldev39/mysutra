@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Mysutra.Life</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+  <link href="./css/responsive.css" rel="stylesheet">
+
+  </head>
+
+<body>
+  <div class="signup-page d-flex flex-column h-100">
+    <!-- Navigation -->
+  <nav class="navbar px-5 mb-5 mb-lg-0 mb-xl-5">
+    <a class="navbar-brand" href="#">
+      <img src="./images/My-Sutra-life.png" width="120" alt="">
+    </a>
+    <ul class="nav d-none d-lg-flex ml-5  mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Help <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Faq</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Welcome, Jhon Doe</a>
+      </li>
+    </ul>
+  </nav>
+
+  
+  <!-- Page Content -->
+  <main class="flex-fill">
+    <div class="container-fluid">
+      <div class="row no-gutters align-items-center mb-5">
+        <div class="col-lg-6 text-center">
+          <img src="./images/network.svg" class="network-img" alt="">
+        </div>
+        <div class="col-lg-6">
+          <header class="text-center mb-3 pb-1">
+            <h2 class="title font-weight-bold text-center position-relative">Built your  <span class="text-primary">Profile</span></h2>
+            <p class="text-muted">This information will let us know more about you.</p>
+          </header>
+          <div class="wizard-container px-4 mx-auto">
+             <!-- progressbar -->
+          <div class="progress mb-4">
+            <div class="progress-bar  bg-success" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      
+      
+          <form id="msform">
+            
+              <fieldset>
+                <div class="card wizard-step mb-4 border-primary border-2 shadow-sm rounded-lg">
+                  <div class="card-body">
+                    <h1 class="active-step position-absolute">1</h1>
+                    <span class="steps position-absolute ml-auto text-muted">1/6</span>
+                    <div class="form-card">
+                      <h4 class="wizard-question font-semibold">Your Date of Birth</h4>
+                      <div class="row">
+                        <div class="col-md-7">
+                          <div class="form-group">
+                            <input class="form-control form-control-lg calender" type="text" placeholder="Date of Birth" /> 
+                          </div>
+                        </div>
+                      </div>
+                      
+                  </div>
+                  </div>  
+                   <div class="card-footer border-primary border-2 d-flex align-items-center">
+                    <button type="button" class="btn btn-light ml-auto action-button mr-3">
+                      Cancel
+                    </button>
+                    <button type="button" class="btn btn-primary next action-button">
+                      Next
+                    </button>
+                   </div>
+                
+                </div>
+                
+              </fieldset>
+      
+      
+              <fieldset>
+                <div class="card wizard-step mb-4 border-primary border-2 shadow-sm rounded-lg">
+                  <div class="card-body">
+                    <h1 class="active-step position-absolute">2</h1>
+                    <span class="steps position-absolute ml-auto text-muted">2/6</span>
+                    <div class="form-card">
+                      <h4 class="wizard-question font-semibold">Your Gender</h4>
+                      <div class="mt-3">
+                        <div class="custom-radio d-inline-block mr-3 mb-3">
+                            <label class="position-relative">
+                                <input type="radio" class="d-none" name="gander" checked>
+                                <span class="">Male</span>
+                            </label>
+                        </div>
+                        <div class="custom-radio d-inline-block mb-3">
+                          <label class="position-relative">
+                              <input type="radio" class="d-none" name="gander">
+                              <span class="">Female</span>
+                          </label>
+                      </div>
+                      </div>
+                      
+                  </div>
+                  </div>  
+                   <div class="card-footer border-primary border-2 d-flex align-items-center">
+                    <button type="button" class="btn btn-light mr-auto previous action-button">
+                      Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next action-button">
+                      Next
+                    </button>
+                   </div>
+                
+                </div>
+                
+              </fieldset>
+      
+              <fieldset>
+                <div class="card wizard-step mb-4 border-primary border-2 shadow-sm rounded-lg">
+                  <div class="card-body">
+                    <h1 class="active-step position-absolute">3</h1>
+                    <span class="steps position-absolute ml-auto text-muted">3/6</span>
+                    <div class="form-card">
+                      <h4 class="wizard-question font-semibold">City of residence</h4>
+                      <div class="row">
+                        <div class="col-md-7">
+                          <div class="form-group">
+                            <select class="form-control form-control-lg" id="">
+                              <option>Select city</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      
+                  </div>
+                  </div>  
+                   <div class="card-footer border-primary border-2 d-flex align-items-center">
+                    <button type="button" class="btn btn-light mr-auto previous action-button">
+                      Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next action-button">
+                      Next
+                    </button>
+                   </div>
+                
+                </div>
+                
+              </fieldset>
+      
+              <fieldset>
+                <div class="card wizard-step mb-4 border-primary border-2 shadow-sm rounded-lg">
+                  <div class="card-body">
+                    <h1 class="active-step position-absolute">4</h1>
+                    <span class="steps position-absolute ml-auto text-muted">4/6</span>
+                    <div class="form-card">
+                      <h4 class="wizard-question font-semibold">City where you grew up.</h4>
+                      <div class="row">
+                        <div class="col-md-7">
+                          <div class="form-group">
+                            <select class="form-control form-control-lg" id="">
+                              <option>Select city</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      
+                  </div>
+                  </div>  
+                   <div class="card-footer border-primary border-2 d-flex align-items-center">
+                    <button type="button" class="btn btn-light mr-auto previous action-button">
+                      Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next action-button">
+                      Next
+                    </button>
+                   </div>
+                
+                </div>
+                
+              </fieldset>
+      
+              <fieldset>
+                <div class="card wizard-step mb-4 border-primary border-2 shadow-sm rounded-lg">
+                  <div class="card-body">
+                    <h1 class="active-step position-absolute">5</h1>
+                    <span class="steps position-absolute ml-auto text-muted">5/6</span>
+                    <div class="form-card">
+                      <h4 class="wizard-question font-semibold">Number of Brothers and Sisters (Including you)</h4>
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="form-group d-flex align-items-center">
+                            <img class="mr-2" src="./images/brother.svg" width="30" alt="">
+                            <input class="form-control form-control-lg" type="number" placeholder="Brothers" /> 
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group d-flex align-items-center">
+                            <img class="mr-2" src="./images/sister.svg" width="30" alt="">
+                            <input class="form-control form-control-lg" type="number" placeholder="Sisters" /> 
+                          </div>
+                        </div>
+                      </div>
+                      
+                  </div>
+                  </div>  
+                   <div class="card-footer border-primary border-2 d-flex align-items-center">
+                    <button type="button" class="btn btn-light mr-auto previous action-button">
+                      Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next action-button">
+                      Next
+                    </button>
+                   </div>
+                
+                </div>
+                
+              </fieldset>
+      
+              <fieldset>
+                <div class="card wizard-step mb-4 border-primary border-2 shadow-sm rounded-lg">
+                  <div class="card-body">
+                    <h1 class="active-step position-absolute">6</h1>
+                    <span class="steps position-absolute ml-auto text-muted">6/6</span>
+                    <div class="form-card">
+                      <h4 class="wizard-question font-semibold">What is main reason you want to join  mySutra</h4>
+                      <div class="mt-3">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="custom-radio  mb-3">
+                              <label class="position-relative">
+                                  <input type="radio" class="d-none" name="reason" checked>
+                                  <span class="">Find family lineage</span>
+                              </label>
+                          </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="custom-radio mb-3">
+                              <label class="position-relative">
+                                  <input type="radio" class="d-none" name="reason">
+                                  <span class="">Connect with family</span>
+                              </label>
+                          </div>
+                          </div>
+                        </div>
+                        
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="custom-radio mb-3">
+                              <label class="position-relative">
+                                  <input type="radio" class="d-none" name="reason">
+                                  <span class="">Connect with Friends</span>
+                              </label>
+                          </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="custom-radio mb-3">
+                              <label class="position-relative">
+                                  <input type="radio" class="d-none" name="reason">
+                                  <span class="">Connect with childhood Friends</span>
+                              </label>
+                          </div>
+                          </div>
+                        </div>
+      
+                      
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="custom-radio mb-3">
+                              <label class="position-relative">
+                                  <input type="radio" class="d-none" name="reason">
+                                  <span class="">Create a family social network</span>
+                              </label>
+                          </div>
+                          </div>
+                        </div>
+      
+                      </div>
+                      
+                  </div>
+                  </div>  
+                   <div class="card-footer border-primary border-2 d-flex align-items-center">
+                    <button type="button" class="btn btn-light mr-auto previous action-button">
+                      Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next action-button">
+                      Finish
+                    </button>
+                   </div>
+                
+                </div>
+                
+              </fieldset>
+        
+              <fieldset>
+                <div class="card wizard-step mb-4 border-primary border-2 shadow-sm rounded-lg">
+                  <div class="card-body px-4">
+                  <div class="form-card">
+                      <div class="success-img text-center mb-4">
+                        <img src="./images/success.svg" width="100" alt="">
+                      </div>
+                      <h2 class="purple-text text-center">
+                        <strong class="text-primary">SUCCESS !</strong>
+                      </h2>
+                   
+                      <div class="row justify-content-center mb-4">
+                          <div class="col-7 text-center">
+                              <h5 class="purple-text text-center">You Have Successfully Signed Up</h5>
+                          </div>
+                      </div>
+                      <div class="text-center">
+                        <button type="button" class="btn btn-primary  ">
+                          Start mysutra Now
+                        </button>
+                      </div>
+                  </div>
+                  </div>
+                </div>
+                  
+              </fieldset>
+          </form>
+          </div>
+        </div>
+    </div>
+    </div>
+    
+
+
+</main>
+
+<footer class="px-5 py-3">
+  <div class="row align-items-center text-center text-sm-left">
+    <div class="col-sm-6 col-md-4 mb-2 mb-sm-0">
+      <span class="copyright-text text-primary">Copyright © 2020 Mysutra.life</span>
+    </div>
+    <div class="col-sm-6 col-md-8 text-sm-right">
+      <ul class="footer-nav list-unstyled d-inline-flex flex-wrap justify-content-center mb-0">
+        <li>
+          <a href="">Privecy policy</a>
+        </li>
+        <li>
+          <a href="">Terms & Conditions</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  
+
+
+
+  
+
+
+  <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/wizard.js"></script>
+</body>
+
+</html>
