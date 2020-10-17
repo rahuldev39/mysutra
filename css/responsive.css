@@ -38,7 +38,7 @@ NOTE: This file contains the styling for responsive Template.
 	}
 	@media(max-width:1699px) {
 		.email-form .select2-container { width: 100% !important; }
-		.iq-search-bar .searchbox { width: 350px; }
+	
 	}
 	@media(min-width:1300px) { }
 	@media(max-width:1399px) {
